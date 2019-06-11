@@ -1,0 +1,4 @@
+com\bazzar\controller\PageController.class
+com\bazzar\controller\CategoryController.class
+com\bazzar\controller\SupplierController.class
+com\bazzar\controller\ProductController.class
