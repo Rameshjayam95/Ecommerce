@@ -22,7 +22,7 @@ public static void executeFirst()
 	context.refresh();
 	userDao=(UserDao)context.getBean("userDAO");
 }
-@Ignore
+//@Ignore
 @Test
 public void addUser() 
 {
@@ -31,10 +31,10 @@ public void addUser()
 	userdetail.setPassword("475981");
 	userdetail.setAddress("No.47 East Street Anna Nagar");
 	userdetail.setEmailId("rameshjayam95@gmail.com");
-	userdetail.setCustomerName("Rammee");
+
 	assertTrue("Problem in adding UserDetail",userDao.addUser(userdetail));
 }
-
+@Ignore
 @Test
 public void updateUser()
 {

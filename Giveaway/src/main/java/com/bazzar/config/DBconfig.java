@@ -31,9 +31,9 @@ public class DBconfig
 		DriverManagerDataSource dataSource=new DriverManagerDataSource();
 		
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/ecommerce");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/newdb");
 		dataSource.setUsername("sa");
-		dataSource.setPassword("sa");
+		dataSource.setPassword("");
 		
 		System.out.println("DataSource object is Created");
 		return dataSource;

@@ -5,8 +5,6 @@
         <h1 class="jumbotron-heading">GIVEAWAY-CART</h1>
      </div>
 
-
-
 <div class="container mb-4">
    
     <div class="row">

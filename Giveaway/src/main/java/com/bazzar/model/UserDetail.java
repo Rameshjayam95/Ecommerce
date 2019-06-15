@@ -13,11 +13,32 @@ public class UserDetail
 	
 @Id
 @GeneratedValue(strategy=GenerationType.IDENTITY)
-private String CustomerID;
+private int UserID;
+private String FirstName;
+private String LastName;
+private String Role;
 private String UserName;
 private String Password;
 public String getUserName() {
 	return UserName;
+}
+public String getFirstName() {
+	return FirstName;
+}
+public void setFirstName(String firstName) {
+	FirstName = firstName;
+}
+public String getLastName() {
+	return LastName;
+}
+public void setLastName(String lastName) {
+	LastName = lastName;
+}
+public String getRole() {
+	return Role;
+}
+public void setRole(String role) {
+	Role = role;
 }
 public void setUserName(String userName) {
 	UserName = userName;
@@ -28,12 +49,7 @@ public String getPassword() {
 public void setPassword(String password) {
 	Password = password;
 }
-public String getCustomerName() {
-	return CustomerName;
-}
-public void setCustomerName(String customerName) {
-	CustomerName = customerName;
-}
+
 public String getEmailId() {
 	return EmailId;
 }
@@ -46,7 +62,6 @@ public String getAddress() {
 public void setAddress(String address) {
 	this.address = address;
 }
-String CustomerName;
 String EmailId;
 String address;
 }

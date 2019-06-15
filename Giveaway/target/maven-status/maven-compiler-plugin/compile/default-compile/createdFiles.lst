@@ -9,6 +9,7 @@ com\bazzar\DAO\ProductDao.class
 com\bazzar\DAO\CategoryImplement.class
 com\bazzar\config\DBconfig.class
 com\bazzar\model\Supplier.class
+com\bazzar\DAO\CartImplement.class
 com\bazzar\DAO\UserImplement.class
 com\bazzar\DAO\UserDao.class
 com\bazzar\model\UserDetail.class
